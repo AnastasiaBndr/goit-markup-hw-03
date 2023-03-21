@@ -5,7 +5,7 @@ body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: var(--background-color);
-  width:1440px;
+  width: 1440px;
 }
 
 /* ==================ERASING STYLES================== */
@@ -185,10 +185,10 @@ button {
 }
 
 /* ==================BOXING PORTFOLIO================== */
-.container{
-  width:1158px;
+.container {
+  width: 1158px;
 }
-.section{
+.section {
   padding-right: 156px;
   padding-left: 156px;
 }
@@ -231,6 +231,16 @@ button {
 .portfolio-item {
   margin: 0px 24px 48px 0px;
   text-align: left;
+  border: 1px solid #e7e9fc;
+  padding-bottom: 32px;
+}
+.portfolio-item h2 {
+  margin-top: 32px;
+  margin-left: 16px;
+}
+.portfolio-item p {
+  margin-top: 8px;
+  margin-left: 16px;
 }
 .portfolio-box {
   display: grid;
@@ -262,7 +272,7 @@ button {
 .small-title {
   margin-bottom: 8px;
 }
-.small-descr-section-item{
+.small-descr-section-item {
   margin-right: 24px;
 }
 
