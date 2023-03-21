@@ -1,17 +1,47 @@
+html {
+  background-color: #e5e5e5;
+}
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: var(--background-color);
+  width: 1440px;
+}
+
+/* ==================ERASING STYLES================== */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+h1,
+h2,
+body,
+p {
+  margin: 0;
+}
+address {
+  font-style: normal;
+}
+
+ul,
+li {
+  text-decoration: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+button {
+  cursor: pointer;
 }
 
 /* ==================ELEMENTS================== */
 :root {
   --small-text-color: #2e2f42;
   --background-color: #ffffff;
-  --hover-and-focus-color:#404bbf;
-  --blue-button-and-logo-color:#4d5ae5;
+  --hover-and-focus-color: #404bbf;
+  --blue-button-and-logo-color: #4d5ae5;
   --small-text-dark-theme-color: #f4f4fd;
-  
 }
 /* ==================COMPONENTS================== */
 .secondary-title {
@@ -29,7 +59,6 @@ body {
   color: var(--small-text-color);
 }
 .small-title {
-  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -38,7 +67,6 @@ body {
   color: var(--small-text-color);
 }
 .small-descr {
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -130,7 +158,6 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  cursor: pointer;
 
   color: white;
 }
@@ -138,14 +165,8 @@ body {
 .hero-button:focus {
   background-color: var(--hover-and-focus-color);
 }
-.address {
-  font-style: normal;
-}
 
 /* ==================MAIN================== */
-.our-team {
-  background-color: var(--small-text-dark-theme-color);
-}
 .our-team-list-item {
   background-color: var(--background-color);
 }
@@ -163,6 +184,108 @@ body {
   background: var(--small-text-color);
 }
 
+/* ==================BOXING PORTFOLIO================== */
+.page-header {
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 72px;
+  border-bottom: 1px solid #e7e9fc;
+}
+.menu,
+.page-nav,
+.list {
+  display: flex;
+}
+.logo {
+  margin-right: 76px;
+}
+.menu-link,
+.contact {
+  margin-right: 40px;
+}
+.buttons-list-portfolio {
+  margin-top: 96px;
+  justify-content: center;
+  margin-bottom: 84px;
+}
+.navigation-button {
+  margin-right: 24px;
+  text-align: center;
+  padding: 12px 24px;
+}
+.portfolio-box {
+  padding-right: 156px;
+  padding-left: 156px;
+  padding-bottom: 120px;
+}
+.portfolio-item {
+  margin: 0px 24px 48px 0px;
+  text-align: left;
+}
+.portfolio-box {
+  display: grid;
+  grid-template-columns: 0fr 0fr 0fr;
+  justify-content: center;
+}
+
+.page-footer {
+  height: 312px;
+  padding-top: 104px;
+  padding-left: 200px;
+}
+.footer-descr {
+  margin-top: 16px;
+}
+
+/* ==================BOXING INDEX================== */
+.hero {
+  height: 600px;
+  text-align: center;
+  padding-top: 188px;
+  margin-bottom: 120px;
+}
+.hero-button {
+  margin-top: 48px;
+}
+.small-descr-section {
+  padding-left: 156px;
+  padding-right: 156px;
+  margin-bottom: 120px;
+}
+.small-title {
+  margin-bottom: 8px;
+}
+.small-descr-section-item{
+  margin-right: 24px;
+}
+
+.what-are-we-doing {
+  padding-bottom: 120px;
+}
+.secondary-title {
+  margin-bottom: 72px;
+}
+.what-are-we-doing-item {
+  margin-right: 24px;
+}
+.what-are-we-doing-list {
+  padding-left: 156px;
+}
+.our-team {
+  background-color: var(--small-text-dark-theme-color);
+  padding: 120px 156px 156px 120px;
+}
+.our-team-list-item {
+  margin-right: 24px;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 4px;
+  text-align: center;
+  padding-bottom: 32px;
+}
+
 /* ==================PORTFOLIO================== */
 .navigation-button {
   font-family: "Roboto", sans-serif;
@@ -172,7 +295,6 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  cursor: pointer;
 
   /* CLOUD */
 
