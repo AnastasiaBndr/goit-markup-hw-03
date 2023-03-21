@@ -5,7 +5,7 @@ body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: var(--background-color);
-  width: 1440px;
+  width:1440px;
 }
 
 /* ==================ERASING STYLES================== */
@@ -185,6 +185,14 @@ button {
 }
 
 /* ==================BOXING PORTFOLIO================== */
+.container{
+  width:1158px;
+}
+.section{
+  padding-right: 156px;
+  padding-left: 156px;
+}
+
 .page-header {
   height: 72px;
   display: flex;
@@ -216,8 +224,6 @@ button {
   padding: 12px 24px;
 }
 .portfolio-box {
-  padding-right: 156px;
-  padding-left: 156px;
   padding-bottom: 120px;
 }
 .portfolio-item {
@@ -233,7 +239,6 @@ button {
 .page-footer {
   height: 312px;
   padding-top: 104px;
-  padding-left: 200px;
 }
 .footer-descr {
   margin-top: 16px;
@@ -250,8 +255,6 @@ button {
   margin-top: 48px;
 }
 .small-descr-section {
-  padding-left: 156px;
-  padding-right: 156px;
   margin-bottom: 120px;
 }
 .small-title {
@@ -270,12 +273,11 @@ button {
 .what-are-we-doing-item {
   margin-right: 24px;
 }
-.what-are-we-doing-list {
-  padding-left: 156px;
-}
+
 .our-team {
   background-color: var(--small-text-dark-theme-color);
-  padding: 120px 156px 156px 120px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .our-team-list-item {
   margin-right: 24px;
