@@ -285,6 +285,7 @@ button {
 }
 .what-are-we-doing-item {
   margin-right: 24px;
+  border: 1px solid #E7E9FC;
 }
 
 .our-team {
