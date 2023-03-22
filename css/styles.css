@@ -1,11 +1,7 @@
-html {
-  background-color: #e5e5e5;
-}
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: var(--background-color);
-  width: 1440px;
 }
 
 /* ==================ERASING STYLES================== */
@@ -23,7 +19,9 @@ p {
 address {
   font-style: normal;
 }
-
+img {
+  display: block;
+}
 ul,
 li {
   text-decoration: none;
@@ -174,9 +172,8 @@ button {
 /* ==================FOOTER================== */
 
 .page-footer {
-  font-family: "Raleway", sans-serif;
   line-height: 1.17;
-  letter-spacing: 0.03;
+  letter-spacing: 0.03em;
   color: var(--blue-button-and-logo-color);
 
   /* NAVY BLUE */
@@ -187,21 +184,18 @@ button {
 /* ==================BOXING PORTFOLIO================== */
 .container {
   width: 1158px;
-}
-.section {
-  padding-right: 156px;
-  padding-left: 156px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
 }
 
 .page-header {
-  height: 72px;
+  padding-top: 24px;
+  padding-bottom: 24px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0px 72px;
   border-bottom: 1px solid #e7e9fc;
-  padding-right: 156px;
-  padding-left: 156px;
 }
 .menu,
 .page-nav,
@@ -216,9 +210,9 @@ button {
   margin-right: 40px;
 }
 .buttons-list-portfolio {
-  margin-top: 96px;
+  padding-top: 96px;
   justify-content: center;
-  margin-bottom: 84px;
+  padding-bottom: 84px;
 }
 .navigation-button {
   margin-right: 24px;
@@ -232,16 +226,12 @@ button {
 .portfolio-item {
   margin: 0px 24px 48px 0px;
   text-align: left;
-  border: 1px solid #e7e9fc;
-  padding-bottom: 32px;
 }
-.portfolio-item h2 {
-  margin-top: 32px;
-  margin-left: 16px;
-}
-.portfolio-item p {
-  margin-top: 8px;
-  margin-left: 16px;
+.portfolio-picture-descr {
+  padding: 32px 0 32px 16px;
+  border-bottom: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc;
+  border-left: 1px solid #e7e9fc;
 }
 .portfolio-box {
   display: grid;
@@ -250,25 +240,25 @@ button {
 }
 
 .page-footer {
-  height: 312px;
   padding-top: 104px;
+  padding-bottom: 100px;
 }
-.footer-descr {
+.page-footer p {
   margin-top: 16px;
 }
 
 /* ==================BOXING INDEX================== */
 .hero {
-  height: 600px;
   text-align: center;
   padding-top: 188px;
-  margin-bottom: 120px;
+  padding-bottom: 188px;
 }
 .hero-button {
   margin-top: 48px;
 }
 .small-descr-section {
-  margin-bottom: 120px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .small-title {
   margin-bottom: 8px;
@@ -284,8 +274,7 @@ button {
   margin-bottom: 72px;
 }
 .what-are-we-doing-item {
-  margin-right: 24px;
-  border: 1px solid #E7E9FC;
+  border: 1px solid #e7e9fc;
 }
 
 .our-team {
