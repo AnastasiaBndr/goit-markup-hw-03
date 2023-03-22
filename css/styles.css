@@ -135,7 +135,6 @@ button {
   background-color: var(--small-text-color);
 }
 .main-title {
-  text-align: center;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
@@ -188,6 +187,9 @@ button {
   padding-right: 15px;
   margin: 0 auto;
 }
+.page-footer p {
+  max-width: 264px;
+}
 
 .page-header {
   padding-top: 24px;
@@ -227,10 +229,6 @@ button {
   padding-bottom: 120px;
 }
 
-.portfolio-item {
-  margin: 0px 24px 48px 0px;
-  text-align: left;
-}
 .portfolio-picture-descr {
   padding: 32px 0 32px 16px;
   border-bottom: 1px solid #e7e9fc;
@@ -238,9 +236,10 @@ button {
   border-left: 1px solid #e7e9fc;
 }
 .portfolio-box {
-  display: grid;
-  grid-template-columns: 0fr 0fr 0fr;
-  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+
+  gap: 48px 24px;
 }
 
 .page-footer {
@@ -257,6 +256,7 @@ button {
   padding-top: 188px;
   padding-bottom: 188px;
 }
+
 .hero-button {
   margin-top: 48px;
 }
