@@ -216,9 +216,7 @@ button {
   margin-right: 40px;
 }
 .buttons-list-portfolio {
-  padding-top: 96px;
   justify-content: center;
-  padding-bottom: 84px;
 }
 .navigation-button {
   margin-right: 24px;
@@ -228,7 +226,9 @@ button {
 .portfolio-box {
   padding-bottom: 120px;
 }
-
+.buttons-box {
+  padding-top: 96px;
+}
 .portfolio-picture-descr {
   padding: 32px 0 32px 16px;
   border-bottom: 1px solid #e7e9fc;
@@ -236,6 +236,7 @@ button {
   border-left: 1px solid #e7e9fc;
 }
 .portfolio-box {
+  margin-top: 72px;
   display: flex;
   flex-wrap: wrap;
 
@@ -249,14 +250,18 @@ button {
 .page-footer p {
   margin-top: 16px;
 }
-
+.small-title {
+  margin-bottom: 8px;
+}
 /* ==================BOXING INDEX================== */
 .hero {
   text-align: center;
   padding-top: 188px;
   padding-bottom: 188px;
 }
-
+.our-team-list-item h3 {
+  margin-top: 32px;
+}
 .hero-button {
   margin-top: 48px;
 }
@@ -264,11 +269,12 @@ button {
   padding-top: 120px;
   padding-bottom: 120px;
 }
-.small-title {
-  margin-bottom: 8px;
+
+.small-descr-section-item:nth-child(-n + 3) {
+  margin-right: 24px;
 }
 .small-descr-section-item {
-  margin-right: 24px;
+  width: 264px;
 }
 
 .what-are-we-doing {
