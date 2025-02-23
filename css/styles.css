@@ -139,6 +139,8 @@ button {
 
 .link {
   text-decoration: none;
+  display:inline-block;
+  margin-bottom:16px;
 }
 
 .menu-link {
@@ -190,6 +192,7 @@ button {
 
 .page-footer {
   line-height: 1.17;
+  padding:100px 0;
   letter-spacing: 0.03em;
   color: var(--blue-button-and-logo-color);
 
@@ -201,9 +204,10 @@ button {
 /* ==================BOXING PORTFOLIO================== */
 .container {
   width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding:32px 16px;
   margin: 0 auto;
+  border: px solid #e7e9fc;
+  border-top: none;
 }
 
 .page-footer p {
@@ -258,9 +262,8 @@ button {
 
 .portfolio-picture-descr {
   padding: 32px 0 32px 16px;
-  border-bottom: 1px solid #e7e9fc;
-  border-right: 1px solid #e7e9fc;
-  border-left: 1px solid #e7e9fc;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
 
 .portfolio-box {
@@ -317,7 +320,7 @@ button {
 }
 
 .secondary-title {
-  margin-bottom: 72px;
+  margin-bottom: 32px;
 }
 
 .what-are-we-doing-item {
