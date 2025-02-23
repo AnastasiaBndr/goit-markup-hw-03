@@ -110,6 +110,7 @@ button {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+    padding: 24px 0;
   letter-spacing: 0.02em;
   color: var(--small-text-color);
 }
@@ -140,7 +141,6 @@ button {
 .link {
   text-decoration: none;
   display:inline-block;
-  margin-bottom:16px;
 }
 
 .menu-link {
@@ -204,7 +204,7 @@ button {
 /* ==================BOXING PORTFOLIO================== */
 .container {
   width: 1158px;
-  padding:32px 16px;
+  padding: 0 15px;
   margin: 0 auto;
   border: px solid #e7e9fc;
   border-top: none;
@@ -215,8 +215,6 @@ button {
 }
 
 .page-header {
-  padding-top: 24px;
-  padding-bottom: 24px;
 
   border-bottom: 1px solid #e7e9fc;
 }
@@ -228,9 +226,17 @@ button {
 }
 
 .menu,
-.page-nav,
+.nav,
 .list {
   display: flex;
+}
+
+.menu{
+  gap:40px
+}
+
+.nav{
+  align-items: center;
 }
 
 .logo {
@@ -240,6 +246,9 @@ button {
 .menu-link,
 .contact {
   margin-right: 40px;
+}
+.menu-link:nth-last-child(){
+  margin-right: 0;
 }
 
 .buttons-list-portfolio {
@@ -275,7 +284,7 @@ button {
 }
 
 .page-footer {
-  padding-top: 104px;
+  padding-top: 100px;
   padding-bottom: 100px;
 }
 
