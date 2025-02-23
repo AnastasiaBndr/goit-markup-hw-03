@@ -201,6 +201,10 @@ button {
   background: var(--small-text-color);
 }
 
+.footer-link{
+  margin-bottom: 16px;
+}
+
 /* ==================BOXING PORTFOLIO================== */
 .container {
   width: 1158px;
@@ -231,9 +235,6 @@ button {
   display: flex;
 }
 
-.menu{
-  gap:40px
-}
 
 .nav{
   align-items: center;
@@ -246,6 +247,9 @@ button {
 .menu-link,
 .contact {
   margin-right: 40px;
+}
+.contact:nth-last-child(){
+  margin-right: 0;
 }
 .menu-link:nth-last-child(){
   margin-right: 0;
