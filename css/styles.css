@@ -13,6 +13,7 @@ body {
 
 h1,
 h2,
+h3,
 body,
 p {
   margin: 0;
@@ -76,6 +77,10 @@ button {
 
 .small-title{
   margin-bottom: 8px;
+}
+
+.portfolio-title{
+  margin-bottom: 0;
 }
 
 .small-descr {
