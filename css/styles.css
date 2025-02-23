@@ -122,7 +122,6 @@ button {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  padding: 24px 0;
   letter-spacing: 0.02em;
   color: var(--small-text-color);
 }
@@ -278,8 +277,9 @@ button {
   margin-right: 76px;
 }
 
-.menu-item{
-  padding:24px 0;
+
+.menu-link{
+  padding: 24px 0;
 }
 
 .menu-item,
