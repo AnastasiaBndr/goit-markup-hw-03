@@ -13,7 +13,6 @@ body {
 
 h1,
 h2,
-h3,
 body,
 p {
   margin: 0;
@@ -274,8 +273,12 @@ button {
   margin-right: 76px;
 }
 
+.menu-item{
+  padding:24px 0;
+}
+
 .menu-item,
-.contact {
+.address-item {
   margin-right: 40px;
 }
 ul.list .menu-item:last-child,
